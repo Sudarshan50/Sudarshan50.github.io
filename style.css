@@ -1,0 +1,90 @@
+header {
+    background-image: url(https://images.unsplash.com/photo-1545670723-196ed0954986?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHdlYiUyMGRldmVsb3BtZW50fGVufDB8fDB8fHww&w=1000&q=80);
+    border: 1px solid wheat;
+    background-size: contain;
+    background-position: center;
+    width: auto;
+    height: 250px;
+  }
+  h1 {
+    font-family: "Caprasimo", cursive;
+    color: aliceblue;
+  }
+  .po {
+    font-family: "Fasthand", cursive;
+    font-size: large;
+    color: aliceblue;
+  }
+  
+  img {
+    object-fit: contain;
+  }
+  header {
+    text-align: center;
+  }
+  .iop {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    height: fit-content;
+    width: fit-content;
+    background-color: whitesmoke;
+    position: absolute;
+    left: 1000px;
+    top: 390px;
+  }
+  a {
+    color: rgb(2, 198, 133);
+    text-decoration: none;
+  }
+  a:hover {
+    color: aqua;
+    cursor: pointer;
+  }
+  main {
+    background-color: whitesmoke;
+  }
+  input[type="submit"] {
+    border: none;
+    color: whitesmoke;
+    padding: 18px 13px;
+    border-radius: 4px;
+    background-color: tomato;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  input[type="submit"]:hover {
+    background-color: rgb(225, 54, 24);
+    cursor: pointer;
+  }
+  
+  .pot {
+    width: 50%;
+    height: fit-content;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    padding: 100px;
+    font-family: "Agdasima", sans-serif;
+    font-size: larger;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  input[type="text"] {
+    padding: 15px;
+    width: 30%;
+    border: none;
+    border-radius: 4px;
+    margin: 4px;
+  }
+  input[type="email"] {
+    padding: 15px;
+    width: 30%;
+    border: none;
+    border-radius: 4px;
+    margin: 4px;
+  }
+  textarea {
+    border: none;
+    border-radius: 4px;
+    margin: 4px;
+  }
+  
