@@ -1,0 +1,207 @@
+h1,.text,h4,.nob
+{
+    text-align: center;
+    margin: 25px;
+    font-family: 'Bungee Spice', cursive;
+    text-decoration: underline;
+    color: rgb(226, 154, 10);
+}
+button{
+    margin: 15px;
+    padding: 5px;
+    height: 45px;
+    width: 190px;
+    text-align: center;
+    position: relative;
+    left: 10%;
+    border-radius: 3px;
+    background-color:red;
+    border-color:grey;
+    color: whitesmoke;
+}
+a
+{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Kanit', sans-serif;
+
+}
+button:hover,.nav:hover
+{
+    background-color: rgb(135, 4, 4);
+    color:rgb(251, 218, 84);
+    cursor: pointer;
+    border-radius: 4px;
+}
+body
+{
+    
+    background-color: black;
+}
+.dateTime
+{
+    border: 2px solid rgba(255, 251, 251, 0.685);
+    position: relative;
+    top: -163px;
+    left: 1200px;
+    height: fit-content;
+    width: fit-content;
+    font-family: 'Inconsolata', monospace;
+    font-size: smaller;
+    color:white;
+    border: none;
+    background-image: url(https://www.shutterstock.com/shutterstock/videos/9338756/thumb/1.jpg?ip=x480);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: -1px;
+    background-blend-mode: exclusion;
+    border-radius: 4.5px;
+}
+.frontShow
+{
+    
+    font-family: 'Pacifico', cursive;
+    font-size: x-large;
+    color: deeppink;
+}
+#current
+{
+    
+    animation: colorChange2 5s ease-in-out 1s infinite alternate both;
+    text-align: center;
+    margin: 25px;
+    height: 15px;
+    width: 500px;
+    position: relative;
+    top: -20px;
+    left: 350px;
+    padding: 85px;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+
+}
+#upcoming
+{
+    animation: colorChange 5s ease-in-out 2s infinite alternate both;
+    text-align: center;
+    margin: 25px;
+    height: 15px;
+    width: 500px;
+    position: relative;
+    top: -20px;
+    left: 350px;
+    padding: 85px;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+
+
+}
+
+@keyframes colorChange 
+{
+    0%{
+        color: deeppink;
+        background-color: aquamarine;
+    }
+    25%
+    {
+        color:yellow;
+        background-color:black;
+    }
+    50%
+    {
+        color: deeppink;
+        background-color: aquamarine;
+    }
+    100%
+    {
+        color: black;
+        background-color:yellow;
+    }
+}
+@keyframes colorChange2
+{
+    0%{
+        color: deeppink;
+        background-color:bisque;
+    }
+    25%
+    {
+        color: yellowgreen;
+        background-color:black;
+    }
+    50%{
+        color: deeppink;
+        background-color:bisque;
+    }
+    100%
+    {
+        color: black;
+        background-color:rgb(122, 198, 9);
+    }
+}
+footer
+{
+    background-image: url(https://img.freepik.com/free-vector/blue-fluid-shape-frame-design-resource_53876-114596.jpg?w=2000&t=st=1690025057~exp=1690025657~hmac=12915c41e2e9d3984b6c78b4ab9e94f4fe7da76abdd6c7d86162d0f92fe000a1);
+    height: 235px;
+    position: relative;
+    top: -50px;
+
+}
+.ft
+{
+    color: whitesmoke;
+    padding: 20px;
+    text-decoration: underline;
+    position: relative;
+    top: 25px;
+    left: 10px;
+    font-family: 'Inconsolata', monospace;
+    font-size: large;
+
+
+}
+.iou
+{
+    color: black;
+    margin-left: 5px;
+    height: 85px;
+    padding: 20px;
+    font-family: 'Inconsolata', monospace;
+
+    
+}
+.pers
+{
+    color: black;
+    position: relative;
+    top: -75px;
+    left: 20px;
+    font-family: 'Inconsolata', monospace;
+    font-size: medium;
+
+
+}
+.copy
+{
+    text-align: right;
+    position: relative;
+    top: -80px;
+}
+.iol
+{
+    color: rgb(5, 160, 160);
+}
+.iol:hover
+{
+    color: rgb(234, 55, 55);
+    text-decoration: underline
+}
+.mainBody
+{
+    background-image: url(https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: -25px;
+}
