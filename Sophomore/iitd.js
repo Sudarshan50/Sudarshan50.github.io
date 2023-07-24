@@ -59,10 +59,10 @@ if(shedule[0].day == array[currentDay])
     {
         if(currentTime>= shedule[0].starTime[i] && currentTime<=shedule[0].endTime[i])
         {
-            document.getElementById("current").innerHTML = shedule[0].name[i]+" At- "+shedule[0].room[i];
-            if(i<3)
+            document.getElementById("current").innerHTML = shedule[0].name[i]+" At- "+shedule[0].room[i]+ "\n" + " At- "+shedule[0].starTime[i];
+            if(i<3 && currentTime <= shedule[0].starTime[i+1])
             {
-                document.getElementById("upcoming").innerHTML = shedule[0].name[i+1]+" At- "+shedule[0].room[i+1];
+                document.getElementById("upcoming").innerHTML = shedule[0].name[i+1]+" At- "+shedule[0].room[i+1] +"\n" + " At- "+shedule[0].starTime[i+1];
             }
             else
             {
@@ -78,10 +78,10 @@ else if(shedule[1].day == array[currentDay])
     {
         if(currentTime>= shedule[1].starTime[i] && currentTime<=shedule[1].endTime[i])
         {
-            document.getElementById("current").innerHTML = shedule[1].name[i]+" At- "+shedule[1].room[i];
+            document.getElementById("current").innerHTML = shedule[1].name[i]+" At- "+shedule[1].room[i]+"\n" + " At- "+shedule[0].starTime[i];
             if(i<3)
             {
-                document.getElementById("upcoming").innerHTML = shedule[1].name[i+1]+" At- "+shedule[1].room[i+1];
+                document.getElementById("upcoming").innerHTML = shedule[1].name[i+1]+" At- "+shedule[1].room[i+1]+"\n" + " At- "+shedule[0].starTime[i+1];;
             }
             else
             {
@@ -97,10 +97,10 @@ else if(shedule[2].day == array[currentDay])
     {
         if(currentTime>= shedule[2].starTime[i] && currentTime<=shedule[2].endTime[i])
         {
-            document.getElementById("current").innerHTML = shedule[2].name[i]+" At- "+shedule[2].room[i];
+            document.getElementById("current").innerHTML = shedule[2].name[i]+" At- "+shedule[2].room[i]+"\n" + " At- "+shedule[0].starTime[i];
             if(i<2)
             {
-                document.getElementById("upcoming").innerHTML = shedule[2].name[i+1]+" At- "+shedule[2].room[i+1];
+                document.getElementById("upcoming").innerHTML = shedule[2].name[i+1]+" At- "+shedule[2].room[i+1]+"\n" + " At- "+shedule[0].starTime[i+1];;
             }
             else
             {
@@ -116,10 +116,10 @@ else if(shedule[3].day == array[currentDay])
     {
         if(currentTime>= shedule[3].starTime[i] && currentTime<=shedule[3].endTime[i])
         {
-            document.getElementById("current").innerHTML = shedule[3].name[i]+" At- "+shedule[3].room[i];
+            document.getElementById("current").innerHTML = shedule[3].name[i]+" At- "+shedule[3].room[i]+"\n" + " At- "+shedule[0].starTime[i];
             if(i<4)
             {
-                document.getElementById("upcoming").innerHTML = shedule[3].name[i+1]+" At- "+shedule[3].room[i+1];
+                document.getElementById("upcoming").innerHTML = shedule[3].name[i+1]+" At- "+shedule[3].room[i+1]+"\n" + " At- "+shedule[0].starTime[i+1];;
             }
             else
             {
@@ -135,10 +135,10 @@ else if(shedule[4].day == array[currentDay])
     {
         if(currentTime>= shedule[4].starTime[i] && currentTime<=shedule[4].endTime[i])
         {
-            document.getElementById("current").innerHTML = shedule[4].name[i]+" At- "+shedule[4].room[i];
+            document.getElementById("current").innerHTML = shedule[4].name[i]+" At- "+shedule[4].room[i]+"\n" + " At- "+shedule[0].starTime[i];
             if(i<3)
             {
-                document.getElementById("upcoming").innerHTML = shedule[4].name[i+1]+" At- "+shedule[4].room[i+1];
+                document.getElementById("upcoming").innerHTML = shedule[4].name[i+1]+" At- "+shedule[4].room[i+1]+"\n" + " At- "+shedule[0].starTime[i+1];;
             }
             else
             {
