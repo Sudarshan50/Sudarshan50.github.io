@@ -73,9 +73,9 @@ if(shedule[0].day== array[currentDay] )
     <tr>
         <td>Venue- </td>
         <td>LH-318</td>
-        <td>LH-108'</td>
+        <td>LH-108</td>
         <td>LH-316</td>
-        <td>615</td>
+        <td>LH-615</td>
     </tr> 
 </table>`
     document.getElementById("cur").append(newShedule);
@@ -101,7 +101,7 @@ else if(shedule[1].day == array[currentDay])
     <tr>
          <th>Venue- </th>
         <td>LH-114</td>
-        <td>LH-308'</td>
+        <td>LH-308</td>
         <td>LH-408</td>
         <td>Chem-Lab</td>
     </tr>
@@ -127,7 +127,7 @@ else if(shedule[2].day == array[currentDay])
     <tr>
         <th>Venue- </th>
         <td>LH-114</td>
-        <td>LH-308'</td>
+        <td>LH-308</td>
         <td>LH-316</td>
     </tr>
 </table>`
@@ -157,7 +157,7 @@ else if(shedule[3].day ==array[currentDay])
     <tr>
         <th>Venue- </th>
         <td>LH-318</td>
-        <td>LH-108'</td>
+        <td>LH-108</td>
         <td>LH-108</td>
         <td>LH-316</td>
         <td>LH-603</td>
@@ -186,7 +186,7 @@ else if(shedule[4].day == array[currentDay])
     <tr>
         <th>Venue- </th>
         <td>LH-114</td>
-        <td>LH-308'</td>
+        <td>LH-308</td>
         <td>LH-408</td>
         <td>LH-517</td>
     </tr>
