@@ -1,5 +1,7 @@
 h1,.text,h4,.nob
 {
+    position: relative;
+    animation: boombam 1.5s ease-out 0.1s 1 alternate both;
     text-align: center;
     margin: 25px;
     font-family: 'Bungee Spice', cursive;
@@ -19,6 +21,11 @@ button{
     border-color:grey;
     color: whitesmoke;
 }
+nav
+{
+    position: relative;
+    animation: boombam 1.5s ease-out 0.1s 1 alternate both;
+}
 a
 {
     text-decoration: none;
@@ -36,7 +43,7 @@ button:hover,.nav:hover
 body
 {
     
-    background-color: black;
+    background-color:black;
 }
 .dateTime
 {
@@ -50,7 +57,7 @@ body
     font-size: smaller;
     color:white;
     border: none;
-    background-image: url(https://www.shutterstock.com/shutterstock/videos/9338756/thumb/1.jpg?ip=x480);
+    background-image: url(https://cdn-icons-png.flaticon.com/512/1253/1253979.png?w=1380&t=st=1690619562~exp=1690620162~hmac=7db92d751c65e47b95e8eb2b77ca6f4641a0252a380bb6a12a1db11121065474);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: -1px;
@@ -58,12 +65,31 @@ body
     border-radius: 5.5px;
     text-align: center;
 }
+.piggy
+{
+    position: relative;
+    animation: boombam 1s ease-in-out 0s 1 alternate both;
+}
 footer
 {
     background-image: url(https://img.freepik.com/free-vector/blue-fluid-shape-frame-design-resource_53876-114596.jpg?w=2000&t=st=1690025057~exp=1690025657~hmac=12915c41e2e9d3984b6c78b4ab9e94f4fe7da76abdd6c7d86162d0f92fe000a1);
     height: 235px;
     position: relative;
     top: 250px;
+    animation: foot 1.5s ease-out 0s 1 alternate both;
+}
+@keyframes foot
+{
+    0%
+    {
+        top: 250px;
+        
+    }
+    100%
+    {
+        top:220px
+    }
+    
 }
 .ft
 {
@@ -108,6 +134,11 @@ footer
     color: rgb(234, 55, 55);
     text-decoration: underline
 }
+#cur
+{
+    position: relative;
+    animation: boombam 1.5s ease-in 0s 1 alternate both;
+}
 #bur
 {
     position: relative;
@@ -115,7 +146,8 @@ footer
 }
 .frontShow
 {
-    
+    position: relative;
+    animation: boombam 2s ease-in 0.1s 1 alternate both;
     font-family: 'Pacifico', cursive;
     font-size: x-large;
     color: deeppink;
@@ -135,6 +167,8 @@ footer
     border: 1px solid whitesmoke;
     border-radius: 4px;
 }
+
+
 @keyframes colorChange2
 {
     0%{
@@ -156,12 +190,7 @@ footer
         background-color:rgb(122, 198, 9);
     }
 }
-#bur
-{
-    position: relative;
-    left: 400px;
-    top: 150px;
-}
+
 table,tr,th,td
 {
     padding: 15px;
@@ -172,5 +201,60 @@ table,tr,th,td
     border-collapse:collapse;
     color: hotpink;
     font-family: 'Kanit', sans-serif;
-
+}
+@keyframes boombam
+{
+    0%
+    {
+        opacity: 0;
+        left: -400px;
+    }
+    100%
+    {
+        opacity: 1;
+        left: 0px;
+    }
+    
+}
+.abc:hover,.cde:hover,.efg:hover,.ijk:hover,.ghi:hover
+{
+    animation: navBar 1s ease-out 0s 1 alternate both;
+}
+@keyframes navBar
+{
+    0%
+    {
+        height: 45px;
+        width: 190px;
+    }
+    50%
+    {
+        width: 220px;
+    }
+    100%
+    {
+        height: 45px;
+        width: 190px;
+    }  
+}
+@keyframes boombam2
+{
+    0%
+    {
+        opacity: 0;
+        left: -400px;
+    }
+    100%
+    {
+        opacity: 1;
+        left: 400px;
+    }
+    
+}
+#bur
+{
+    animation: boombam2 1.5s ease-in 0.1s 1 alternate both;
+    position: relative;
+    left: 400px;
+    top: 150px;
 }

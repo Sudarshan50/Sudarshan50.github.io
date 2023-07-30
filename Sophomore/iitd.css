@@ -1,24 +1,15 @@
 h1,.text,h4,.nob
 {
+    position: relative;
+    animation: boombam 1.5s ease-out 0.1s 1 alternate both;
     text-align: center;
     margin: 25px;
     font-family: 'Bungee Spice', cursive;
     text-decoration: underline;
     color: rgb(226, 154, 10);
+
 }
-button{
-    margin: 15px;
-    padding: 5px;
-    height: 45px;
-    width: 190px;
-    text-align: center;
-    position: relative;
-    left: 10%;
-    border-radius: 3px;
-    background-color:red;
-    border-color:grey;
-    color: whitesmoke;
-}
+
 a
 {
     text-decoration: none;
@@ -38,31 +29,53 @@ body
     
     background-color: black;
 }
+
 .dateTime
 {
-    border: 2px solid rgba(255, 251, 251, 0.685);
     position: relative;
-    top: -163px;
-    left: 1200px;
+    border: 2px solid rgba(255, 251, 251, 0.685);
+    top: -150px;
+    left: 1100px;
     height: fit-content;
     width: fit-content;
     font-family: 'Inconsolata', monospace;
     font-size: smaller;
     color:white;
     border: none;
-    background-image: url(https://www.shutterstock.com/shutterstock/videos/9338756/thumb/1.jpg?ip=x480);
+
     background-size:cover;
     background-repeat: no-repeat;
     background-position: -1px;
     background-blend-mode: exclusion;
-    border-radius: 4.5px;
+    border-radius: 3px;
+    font-size: medium;
+}
+.piggy
+{
+    position: relative;
+    animation: boombam 1s ease-in-out 0s 1 alternate both;
 }
 .frontShow
 {
-    
+    animation: boombam 1.5s ease-in 0s 1 alternate both;
     font-family: 'Pacifico', cursive;
     font-size: x-large;
     color: deeppink;
+    position: relative;
+}
+@keyframes boombam
+{
+    0%
+    {
+        opacity: 0;
+        left: -400px;
+    }
+    100%
+    {
+        opacity: 1;
+        left: 0px;
+    }
+    
 }
 #current
 {
@@ -140,13 +153,28 @@ body
         background-color:rgb(122, 198, 9);
     }
 }
+
 footer
 {
+    animation: foot 1.5s ease-out 0s 1 alternate both;
     background-image: url(https://img.freepik.com/free-vector/blue-fluid-shape-frame-design-resource_53876-114596.jpg?w=2000&t=st=1690025057~exp=1690025657~hmac=12915c41e2e9d3984b6c78b4ab9e94f4fe7da76abdd6c7d86162d0f92fe000a1);
     height: 235px;
     position: relative;
-    top: -50px;
+    top: -45px;
 
+}
+@keyframes foot
+{
+    0%
+    {
+        top: 10px;
+        
+    }
+    100%
+    {
+        top:-45px
+    }
+    
 }
 .ft
 {
@@ -199,9 +227,59 @@ footer
 }
 .mainBody
 {
+
     background-image: url(https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
     background-position: center;
     background-size: cover;
     position: relative;
     top: -25px;
+    height: 885px;
+    width: auto;
 }
+
+footer
+{
+    width: auto;
+}
+
+button{
+    position: relative;
+    margin: 15px;
+    padding: 5px;
+    height: 45px;
+    width: 190px;
+    text-align: center;
+    left: 10%;
+    border-radius: 3px;
+    background-color:red;
+    border-color:grey;
+    color: whitesmoke;
+}
+nav
+{
+    position: relative;
+    animation: boombam 1.5s ease-out 0.1s 1 alternate both;
+}
+.abc:hover,.cde:hover,.efg:hover,.ijk:hover,.ghi:hover
+{
+    animation: navBar 0.6s ease-out 0s 1 alternate both;
+}
+@keyframes navBar
+{
+    0%
+    {
+        height: 45px;
+        width: 190px;
+    }
+    50%
+    {
+        width: 220px;
+    }
+    100%
+    {
+        height: 45px;
+        width: 190px;
+    }  
+}
+
+

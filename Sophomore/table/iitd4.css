@@ -1,5 +1,7 @@
 h1,.text,h4,.nob
 {
+    position: relative;
+    animation: boombam 1.5s ease-out 0.1s 1 alternate both;
     text-align: center;
     margin: 25px;
     font-family: 'Bungee Spice', cursive;
@@ -42,7 +44,7 @@ body
 {
     border: 2px solid rgba(255, 251, 251, 0.685);
     position: relative;
-    top: -353px;
+    top: -150px;
     left: 1200px;
     height: fit-content;
     width: fit-content;
@@ -50,7 +52,7 @@ body
     font-size: smaller;
     color:white;
     border: none;
-    background-image: url(https://www.shutterstock.com/shutterstock/videos/9338756/thumb/1.jpg?ip=x480);
+    background-image: url(https://cdn-icons-png.flaticon.com/512/1253/1253979.png?w=1380&t=st=1690619562~exp=1690620162~hmac=7db92d751c65e47b95e8eb2b77ca6f4641a0252a380bb6a12a1db11121065474);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: -1px;
@@ -206,4 +208,92 @@ tr:hover,th:hover,td:hover
     cursor: pointer;
     color: black;
     background-color:yellow;
+}
+@keyframes boombam
+{
+    0%
+    {
+        opacity: 0;
+        left: -400px;
+    }
+    100%
+    {
+        opacity: 1;
+        left: 0px;
+    }
+    
+}
+nav
+{
+    position: relative;
+    animation: boombam 1.5s ease-out 0.1s 1 alternate both;
+}
+.abc:hover,.cde:hover,.efg:hover,.ijk:hover,.ghi:hover
+{
+    animation: navBar 0.6s ease-out 0s 1 alternate both;
+}
+@keyframes navBar
+{
+    0%
+    {
+        height: 45px;
+        width: 190px;
+    }
+    50%
+    {
+        width: 220px;
+    }
+    100%
+    {
+        height: 45px;
+        width: 190px;
+    }  
+}
+.table
+{
+    animation: boombam2 2s ease-in 0.1s 1 alternate both;
+    position: relative;
+    left: 400px;
+
+}
+@keyframes boombam2
+{
+    0%
+    {
+        opacity: 0;
+        left: -400px;
+    }
+    100%
+    {
+        opacity: 1;
+        left: 0px;
+    }
+    
+}
+#cur
+{
+    position: relative;
+    animation: boombam 1.5s ease-in 0s 1 alternate both;
+}
+footer
+{
+    animation: foot 1.5s ease-out 0s 1 alternate both;
+}
+@keyframes foot
+{
+    0%
+    {
+        top: 250px;
+        
+    }
+    100%
+    {
+        top:220px
+    }
+    
+}
+.piggy
+{
+    position: relative;
+    animation: boombam 1s ease-in-out 0s 1 alternate both;
 }

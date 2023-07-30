@@ -70,6 +70,11 @@ if(shedule[0].day == array[currentDay])
 
             }
         }
+        else
+        {
+            document.getElementById("current").innerHTML = "Nothing to do...";
+            document.getElementById("upcoming").innerHTML = " --RELAX--";
+        }
     }
 }
 else if(shedule[1].day == array[currentDay])
@@ -88,6 +93,11 @@ else if(shedule[1].day == array[currentDay])
                 document.getElementById("upcoming").innerHTML = "Nothing to do..";
 
             }
+        }
+        else
+        {
+            document.getElementById("current").innerHTML = "Nothing to do...";
+            document.getElementById("upcoming").innerHTML = " --RELAX--";
         }
     }
 }
@@ -108,6 +118,11 @@ else if(shedule[2].day == array[currentDay])
 
             }
         }
+        else
+        {
+            document.getElementById("current").innerHTML = "Nothing to do...";
+            document.getElementById("upcoming").innerHTML = " --RELAX--";
+        }
     }
 }
 else if(shedule[3].day == array[currentDay])
@@ -126,6 +141,11 @@ else if(shedule[3].day == array[currentDay])
                 document.getElementById("upcoming").innerHTML = "Nothing to do..";
 
             }
+        }
+        else
+        {
+            document.getElementById("current").innerHTML = "Nothing to do...";
+            document.getElementById("upcoming").innerHTML = " --RELAX--";
         }
     }
 }
@@ -146,6 +166,11 @@ else if(shedule[4].day == array[currentDay])
 
             }
         }
+        else
+        {
+            document.getElementById("current").innerHTML = "Nothing to do...";
+            document.getElementById("upcoming").innerHTML = " --RELAX--";
+        }
     }
 }
 else
@@ -153,3 +178,15 @@ else
     document.getElementById("current").innerHTML = "Nothing to do...";
     document.getElementById("upcoming").innerHTML = " --RELAX--";
 }
+// documnet.getElementById("nerd").addEventListener("onmouseover",loo);
+// documnet.getElementById("nerd").addEventListener("onmouseout",boo);
+// function loo()
+// {
+//     document.getElementsByClassName("fu").innerHTML = `<p>Hi,this is Sudarshan</p>
+//     <p>I am second year Btech student from Chemical Enginering</p>
+//     <p>Thank you for visiting my site!</p>`
+// }
+// function boo()
+// {
+//     document.getElementsByClassName('fu').innerHTML=``;
+// }

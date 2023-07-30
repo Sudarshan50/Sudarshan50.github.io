@@ -57,6 +57,9 @@ if(shedule[0].day== array[currentDay+1] )
     const newShedule = document.createElement('div');
     newShedule.innerHTML =`<table id="bur">
     <tr>
+     <th colspan="5">Monday</th>
+     </tr>
+    <tr>
         <th>Time- </th>
         <td>8:00 - 9:30</td>
         <td>9:30 - 11:00</td>
@@ -73,7 +76,7 @@ if(shedule[0].day== array[currentDay+1] )
     <tr>
         <td>Venue- </td>
         <td>LH-318</td>
-        <td>LH-108'</td>
+        <td>LH-108</td>
         <td>LH-316</td>
         <td>LH-615</td>
     </tr> 
@@ -84,6 +87,9 @@ else if(shedule[1].day == array[currentDay+1])
 {
     const newShedule = document.createElement('div');
     newShedule.innerHTML =`<table id="bur">
+    <tr>
+     <th colspan="5">Tuesday</th>
+     </tr>
     <tr>
         <th>Time- </th>
         <td>8:00 - 9:00</td>
@@ -113,6 +119,9 @@ else if(shedule[2].day == array[currentDay+1])
     const newShedule = document.createElement('div');
     newShedule.innerHTML =`<table id="bur">
     <tr>
+     <th colspan="5">Wednesday</th>
+     </tr>
+    <tr>
         <th>Time- </th>
         <td>8:00 - 9:00</td>
         <td>10:00 - 11:00</td>
@@ -138,6 +147,9 @@ else if(shedule[3].day ==array[currentDay+1])
 {
     const newShedule = document.createElement('div');
     newShedule.innerHTML =`<table id="bur">
+    <tr>
+     <th colspan="5">Thursday</th>
+     </tr>
     <tr>
         <th>Time- </th>
         <td>8:00 - 9:30</td>
@@ -169,6 +181,9 @@ else if(shedule[4].day == array[currentDay+1])
 {
     const newShedule = document.createElement('div');
     newShedule.innerHTML =`<table id="bur">
+    <tr>
+     <th colspan="5">Friday</th>
+     </tr>
     <tr>
         <th>Time- </th>
         <td>8:00 - 9:00</td>
