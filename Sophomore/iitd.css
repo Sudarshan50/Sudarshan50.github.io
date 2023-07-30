@@ -48,7 +48,7 @@ body
     background-position: -1px;
     background-blend-mode: exclusion;
     border-radius: 3px;
-    font-size: medium;
+    font-size: smaller;
 }
 .piggy
 {
