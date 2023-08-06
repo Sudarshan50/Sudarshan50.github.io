@@ -48,7 +48,7 @@ body
     background-position: -1px;
     background-blend-mode: exclusion;
     border-radius: 3px;
-    font-size: smaller;
+    font-size: medium;
 }
 .piggy
 {
@@ -262,7 +262,7 @@ nav
 }
 .abc:hover,.cde:hover,.efg:hover,.ijk:hover,.ghi:hover
 {
-    animation: navBar 0.6s ease-out 0s 1 alternate both;
+    animation: navBar 1s ease-out 0s 1 alternate both;
 }
 @keyframes navBar
 {

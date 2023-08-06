@@ -202,7 +202,7 @@ nav
 }
 .abc:hover,.cde:hover,.efg:hover,.ijk:hover,.ghi:hover
 {
-    animation: navBar 0.6s ease-out 0s 1 alternate both;
+    animation: navBar 1s ease-out 0s 1 alternate both;
 }
 @keyframes navBar
 {
