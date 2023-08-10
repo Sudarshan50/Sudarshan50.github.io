@@ -1,3 +1,4 @@
+
 h1,.text,h4,.nob
 {
     position: relative;
@@ -159,7 +160,7 @@ footer
     background-image: url(https://img.freepik.com/free-vector/blue-fluid-shape-frame-design-resource_53876-114596.jpg?w=2000&t=st=1690025057~exp=1690025657~hmac=12915c41e2e9d3984b6c78b4ab9e94f4fe7da76abdd6c7d86162d0f92fe000a1);
     height: 235px;
     position: relative;
-    top: -45px;
+    /* top: -500px; */
 
 }
 @keyframes foot
@@ -171,7 +172,7 @@ footer
     }
     100%
     {
-        top:-45px
+        top:-150px
     }
     
 }
@@ -227,7 +228,7 @@ footer
 .mainBody
 {
 
-    background-image: url(https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    /* background-image: url(https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80); */
     background-position: center;
     background-size: cover;
     position: relative;
@@ -280,5 +281,8 @@ nav
         width: 190px;
     }  
 }
+
+
+    
 
 

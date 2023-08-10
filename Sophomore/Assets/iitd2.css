@@ -87,7 +87,7 @@ footer
     }
     100%
     {
-        top:220px
+        top:190px
     }
     
 }
@@ -257,4 +257,12 @@ table,tr,th,td
     position: relative;
     left: 400px;
     top: 150px;
+}
+#bur:hover
+{
+    cursor: pointer;
+}
+table:hover,tr:hover,th:hover,td:hover
+{
+    background-color: yellow;
 }
