@@ -166,7 +166,7 @@ else if(shedule[3].day ==array[currentDay+1])
     const newShedule = document.createElement('div');
     newShedule.innerHTML =`<table id="bur">
     <tr>
-     <th colspan="5">Thursday</th>
+     <th colspan="6">Thursday</th>
      </tr>
     <tr>
         <th>Time- </th>
