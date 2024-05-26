@@ -1,0 +1,95 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    max-width: 960px;
+    margin: auto;
+}
+h1 {
+    font-size: 3em;
+    letter-spacing: .6em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+h2 {
+    font-size: 1.5em;
+    padding-bottom: 1em;
+}
+
+h3 {
+    font-size: 1em;
+    padding-bottom: 1em;
+}
+
+main { 
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 3em;
+}
+header {
+    text-align: center;
+    margin: auto 2em;
+}
+
+section {
+    margin: auto 1em 4em 2em;
+}
+.skill__section{
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+    column-gap: 2em;
+    row-gap: 1rem;
+    align-items: center;
+    justify-items: flex-start;
+    position: relative;
+    right: 1.8em;
+
+}
+li h3{
+   text-decoration: underline;
+    font-weight: bold;
+}
+.skills__info{
+    align-items: self-start;
+    position: relative;
+    bottom: 0.6em;
+
+}
+
+i {
+    margin-right: .5em;
+}
+
+p {
+    margin: .2em auto
+}
+
+hr {
+    border: none;
+    background-color: lightgray;
+    height: 1px;
+}
+
+h1, h2, h3 {
+    font-weight: 100;
+    margin-bottom: 0;
+}
+#mainLeft {
+    border-right: 1px solid lightgray;
+}
+.achivement{
+    position: relative;
+    right: 2em;
+}
+.education{
+    position: relative;
+    right: 2em;
+}
+.works{
+    position: relative;
+    right: 2em;
+}
+.projects{
+    position: relative;
+    right: 2em;
+}
